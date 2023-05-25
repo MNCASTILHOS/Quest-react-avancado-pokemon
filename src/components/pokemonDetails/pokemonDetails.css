@@ -1,0 +1,91 @@
+.container{
+    display: grid;
+    grid-template-areas: "pokemon pokemon pokemon"
+                        "to-back to-back to-back"
+                         "moves habilities types";
+                         
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1400px;
+}
+
+.to-back{
+    grid-area: to-back;
+    text-align: center;
+}
+
+.pokemon{
+    grid-area: pokemon;
+    text-align: center;
+    position: relative;
+}
+
+.name-pokemon::first-letter {
+    text-transform: uppercase;
+}
+
+.name-pokemon{
+    font-size: 25px;
+    color: RGB(55 97 168);
+    margin-top: 10px;
+    font-weight: 900;
+    
+}
+                    
+.moves{
+    grid-area: moves;
+}
+
+.abilities{
+    grid-area: habilities;
+}
+
+.types{
+    grid-area: types;
+}
+
+.title{
+    text-align: center;
+    font-size: 20px;
+    color: RGB(55 97 168);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.caption-abilities{
+    color: RGB(55 97 168);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.caption-abilities::first-letter {
+    text-transform: uppercase;
+}
+
+.description-details{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.effect{
+    color: RGB(55 97 168);
+}
+
+.moves, .abilities, .types{
+    border: solid 1px;
+    border-color: RGB(55 97 168);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: RGB(199 243 244);
+}
+
+.moves, .description-details {
+    text-transform: capitalize;
+}
+
+.description-details-abilities::first-letter{
+    text-transform: uppercase;
+}

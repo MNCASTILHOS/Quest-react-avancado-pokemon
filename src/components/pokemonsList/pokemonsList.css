@@ -1,0 +1,72 @@
+.select-theme.select-theme{
+    text-align: center;   
+    padding: 10px;
+}
+
+.select{
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    border-color: rgb(55,97,168);
+    border-style: solid;
+    color: black;
+    background-color: rgb(254,202,27);
+    font-weight: 400;
+    transition:  0.3s;
+    padding: 5px;
+    margin-left: 30px;
+    text-align: center;
+    border-width: 2px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.select:hover{
+    color: #947304;
+}
+
+.pokemons{
+    display: inline-flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.pokemons-list{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px 40px 15px 40px;
+    border-color: RGB(55 97 168);
+    border-radius: 20px;
+    border-style: solid;
+    background-color: RGB(199 243 244);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name::first-letter {
+    text-transform: uppercase;
+}
+
+.name{
+    font-size: 15px;
+    color: RGB(55 97 168);
+}
+
+.image{
+    width: 100px;
+}
+
+.button-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.types-list{
+    text-transform: capitalize;
+}
+
+

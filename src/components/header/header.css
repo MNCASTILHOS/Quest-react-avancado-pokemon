@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  RGB(97 246 251);
+    cursor: pointer; 
+}   
+
+.logo {
+    width: 200px;
+    margin: 20px;   
+}
+
+.button{
+    border-radius: 50px;
+}
